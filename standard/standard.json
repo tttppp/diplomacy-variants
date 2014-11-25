@@ -1,0 +1,44 @@
+{
+    "displayName" : "Standard",
+    "name": "standard",
+    "centresToWin" : 18,
+    "startYear" : 1901,
+    "regions" : [],
+    "powers" : {
+        "E" : {
+            "name" : "England",
+            "colour" : "#0000FF",
+            "start" : []
+        },
+        "G" : {
+            "name" : "Germany",
+            "colour" : "#000000",
+            "start" : []
+        },
+        "I" : {
+            "name" : "Italy",
+            "colour" : "#00FF00",
+            "start" : []
+        },
+        "F" : {
+            "name" : "France",
+            "colour" : "#0000AA",
+            "start" : []
+        },
+        "R" : {
+            "name" : "Russia",
+            "colour" : "#FFFFFF",
+            "start" : []
+        },
+        "T" : {
+            "name" : "Turkey",
+            "colour" : "#FFFF00",
+            "start" : []
+        },
+        "A" : {
+            "name" : "Austria",
+            "colour" : "#FF0000",
+            "start" : []
+        }
+    }
+}
