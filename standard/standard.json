@@ -1,44 +1,60 @@
 {
-    "displayName" : "Standard",
-    "name": "standard",
-    "centresToWin" : 18,
-    "startYear" : 1901,
-    "regions" : [],
-    "powers" : {
-        "E" : {
-            "name" : "England",
-            "colour" : "#0000FF",
-            "start" : []
+    displayName: "Standard",
+    name: "standard",
+    centresToWin: 18,
+    startYear: 1901,
+    regions: {
+        STP: {
+            NC: ['BAR', 'NWY'],
+            SC: ['BOT', 'FIN', 'LVN'],
+            A: ['NWY', 'FIN', 'LVN', 'MOS']
+        }, {
+        MOS: {
+            A: ['STP', 'LVN', 'WAR', 'UKR', 'SEV']
         },
-        "G" : {
-            "name" : "Germany",
-            "colour" : "#000000",
-            "start" : []
+        BAR: {
+            F: ['STP.NC', 'NOR', 'NWY']
         },
-        "I" : {
-            "name" : "Italy",
-            "colour" : "#00FF00",
-            "start" : []
+        FIN: {
+            A: ['NWY', 'SWE', STP'],
+            F: ['SWE', 'BOT', 'STP.SC']
+        }
+    },
+    powers: {
+        E: {
+            name: "England",
+            colour: "#0000FF",
+            start: []
         },
-        "F" : {
-            "name" : "France",
-            "colour" : "#0000AA",
-            "start" : []
+        G: {
+            name: "Germany",
+            colour: "#000000",
+            start: []
         },
-        "R" : {
-            "name" : "Russia",
-            "colour" : "#FFFFFF",
-            "start" : []
+        I: {
+            name: "Italy",
+            colour: "#00FF00",
+            start: []
         },
-        "T" : {
-            "name" : "Turkey",
-            "colour" : "#FFFF00",
-            "start" : []
+        F: {
+            name: "France",
+            colour: "#0000AA",
+            start: []
         },
-        "A" : {
-            "name" : "Austria",
-            "colour" : "#FF0000",
-            "start" : []
+        R: {
+            name: "Russia",
+            colour: "#FFFFFF",
+            start: []
+        },
+        T: {
+            name: "Turkey",
+            colour: "#FFFF00",
+            start: []
+        },
+        A: {
+            name: "Austria",
+            colour: "#FF0000",
+            start: []
         }
     }
 }
