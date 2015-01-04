@@ -3,23 +3,32 @@
     "name": "standard",
     "centresToWin": 18,
     "startYear": 1901,
-    "regions": {
-        "STP": {
+    "regions": [
+        {
+            "r": "STP",
             "NC": ["BAR", "NWY"],
             "SC": ["BOT", "FIN", "LVN"],
-            "A": ["NWY", "FIN", "LVN", "MOS"]
-        },
-        "MOS": {
-            "A": ["STP", "LVN", "WAR", "UKR", "SEV"]
-        },
-        "BAR": {
-            "F": ["STP.NC", "NOR", "NWY"]
-        },
-        "FIN": {
-            "A": ["NWY", "SWE", "STP"],
-            "F": ["SWE", "BOT", "STP.SC"]
+            "a": ["NWY", "FIN", "LVN", "MOS"]
+        }, {
+            "r": "MOS",
+            "a": ["STP", "LVN", "WAR", "UKR", "SEV"]
+        }, {
+            "r": "BAR",
+            "f": ["STP.NC", "NOR", "NWY"]
+        }, {
+            "r": "FIN",
+            "a": ["NWY", "SWE", "STP"],
+            "f": ["SWE", "BOT", "STP.SC"]
+        }, {
+            "r": "POR",
+            "f": ["MAO", "SPA.NC", "SPA.SC"],
+            "a": ["SPA"],
+            "sc": {
+                "x": 105,
+                "y": 750
+            }
         }
-    },
+    ],
     "powers": {
         "E": {
             "name": "England",
