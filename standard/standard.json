@@ -11,7 +11,13 @@
             "a": ["NWY", "FIN", "LVN", "MOS"]
         }, {
             "r": "MOS",
-            "a": ["STP", "LVN", "WAR", "UKR", "SEV"]
+            "a": ["STP", "LVN", "WAR", "UKR", "SEV"],
+            "sc": {
+                "x": 1000,
+                "y": 400
+            },
+            "x": 1000,
+            "y": 400
         }, {
             "r": "BAR",
             "f": ["STP.NC", "NOR", "NWY"]
@@ -29,18 +35,23 @@
             }
         }, {
             "r": "BOT",
-            "f": ["SWE", "STP.SC", "FIN", "BAL", "LVN"],
-            "x": 600,
-            "y": 100
+            "f": ["SWE", "STP.SC", "FIN", "BAL", "LVN"]
         }, {
             "r": "SEV",
             "f": ["BLA"],
             "a": ["MOS", "UKR", "ARM"],
-            "x": 610,
+            "x": 1000,
             "y": 610,
             "sc": {
-                "x": 600,
+                "x": 900,
                 "y": 600
+            }
+        }, {
+            "r": "BUD",
+            "a": ["RUM", "VIE", "TRI", "GAL", "SER"],
+            "sc": {
+                "x": 705,
+                "y": 650
             }
         }
     ],
