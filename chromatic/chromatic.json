@@ -1,0 +1,52 @@
+{
+    "displayName": "Chromatic",
+    "name": "chromatic",
+    "centresToWin": 11,
+    "startYear": 0,
+    "regions": [{
+            "r" : "CRY",
+            "x" : 538,
+            "y" : 559,
+            "sc" : {
+                "x" : 538,
+                "y" : 528
+            }
+        }, {
+            "r" : "JET",
+            "x" : 672,
+            "y" : 405,
+            "sc" : {
+                "x" : 708,
+                "y" : 441,
+                "ownedBy": "D"
+            }
+        }
+    ],
+    "powers": {
+        "B": {
+            "name": "Blue",
+            "colour": "#0000FF",
+            "start": []
+        },
+        "D": {
+            "name": "Dark",
+            "colour": "#444444",
+            "start": []
+        },
+        "L": {
+            "name": "Light",
+            "colour": "#FFFFFF",
+            "start": []
+        },
+        "R": {
+            "name": "Red",
+            "colour": "#FF0000",
+            "start": []
+        },
+        "Y": {
+            "name": "Yellow",
+            "colour": "#FFFF00",
+            "start": []
+        }
+    }
+}
