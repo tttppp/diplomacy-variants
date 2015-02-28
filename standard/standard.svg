@@ -7,10 +7,7 @@
 <!--   SVG by Zach DelProposto 																	-->
 <!--   																							-->
 <!-- ========================================================================================== -->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
- width="864px" height="724px" viewBox="0 0 1152 965" text-rendering="optimizeLegibility"
- preserveAspectRatio="xMinYMin" image-rendering="optimizeQuality" shape-rendering="geometricPrecision"
- >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1164" height="965">
 	<g>
 		<path id="nth" d="M 490,263 L 484,269 L 482,285 L 477,312 L 481,316 L 479,323 L 472,328 L 476,338 L 490,348 L 486,356 L 485,363 L 487,369 L 488,374 L 502,382 L 497,396 L 495,412 L 482,409 L 462,408 L 440,411 L 430,418 L 426,429 L 426,437 L 431,457 L 435,469 L 434,471 L 418,466 L 413,482 L 428,485 L 424,493 L 423,496 L 431,498 L 430,503,
 		415,502 L 410,506 L 408,502 L 383,510 L 380,505 L 382,500 L 374,493 L 390,482 L 392,469 L 385,455 L 372,450 L 378,431 L 362,385 L 359,355 L 376,341 L 376,326 L 358,317 L 360,313 L 364,309 L 366,307 L 367,296 L 399,270 L 420,260 L 478,256 L 486,254 z" />
