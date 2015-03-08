@@ -3,7 +3,7 @@
     "name": "standard",
     "centresToWin": 18,
     "startYear": 1901,
-    "seasonTemplate": [
+    "regions": [
         {
             "r": "STP",
             "sc": {
@@ -67,7 +67,9 @@
             "sc": {
                 "x": 600,
                 "y": 620
-            }
+            },
+            "x": 610,
+            "y": 625
         }, {
             "r": "TRI",
             "sc": {
@@ -124,6 +126,10 @@
             },
             "x": 540,
             "y": 252
+        }, {
+            "r": "ADR",
+            "x": 500,
+            "y": 625
         }
     ],
     "graph": {
