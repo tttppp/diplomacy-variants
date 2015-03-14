@@ -1,6 +1,5 @@
 {
-    "displayName": "Ancient Mediterranian",
-    "name": "ancientmed",
+    "name": "Ancient Mediterranian",
     "centresToWin": 18,
     "startYear": 0,
     "regions": [],

@@ -1,6 +1,5 @@
 {
-    "displayName": "Standard",
-    "name": "standard",
+    "name": "Standard",
     "centresToWin": 18,
     "startYear": 1901,
     "regions": [
