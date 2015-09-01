@@ -18,22 +18,42 @@
             ]
         }, {
             "r": "MOS", "x": 1000, "y": 400,
-            "sc": { "x": 1000, "y": 400 }
+            "sc": { "x": 1000, "y": 400 },
+            "default": {
+                "power": "R",
+                "type": 1
+            }
         }, {
             "r": "POR",
             "sc": { "x": 105, "y": 750 }
         }, {
             "r": "SEV", "x": 1000, "y": 610,
-            "sc": { "x": 900, "y": 600 }
+            "sc": { "x": 900, "y": 600 },
+            "default": {
+                "power": "R",
+                "type": 1
+            }
         }, {
             "r": "BUD", "x": 645, "y": 645,
-            "sc": { "x": 700, "y": 610 }
+            "sc": { "x": 700, "y": 610 },
+            "default": {
+                "power": "A",
+                "type": 1
+            }
         }, {
             "r": "WAR", "x": 700, "y": 500,
-            "sc": { "x": 700, "y": 500 }
+            "sc": { "x": 700, "y": 500 },
+            "default": {
+                "power": "R",
+                "type": 1
+            }
         }, {
             "r": "VIE", "x": 610, "y": 625,
-            "sc": { "x": 600, "y": 620 }
+            "sc": { "x": 600, "y": 620 },
+            "default": {
+                "power": "A",
+                "type": 1
+            }
         }, {
             "r": "TRI", "x": 585, "y": 666,
             "sc": { "x": 600, "y": 725 }
@@ -84,7 +104,28 @@
         },  {
             "r": "BRE", "x": 298, "y": 568,
             "sc": { "x": 274, "y": 552 }
-        },
+        }, {
+            "r": "CON", "x": 810, "y": 830,
+            "sc": { "x": 845, "y": 795 },
+            "default": {
+                "power": "T",
+                "type": 2
+            }
+        }, {
+            "r": "ANK", "x": 980, "y": 790,
+            "sc": { "x": 935, "y": 805 },
+            "default": {
+                "power": "T",
+                "type": 1
+            }
+        }, {
+            "r": "SMY", "x": 860, "y": 890,
+            "sc": { "x": 820, "y": 870 },
+            "default": {
+                "power": "T",
+                "type": 2
+            }
+        }
         { "r": "ADR", "x": 500, "y": 625 },
         { "r": "ALB", "x": 676, "y": 812 },
         { "r": "NTH", "x": 434, "y": 332 },
@@ -135,69 +176,31 @@
     "powers": {
         "E": {
             "name": "England",
-            "colour": "#0000FF",
-            "start": []
+            "colour": "#0000FF"
         },
         "G": {
             "name": "Germany",
-            "colour": "#444444",
-            "start": []
+            "colour": "#444444"
         },
         "I": {
             "name": "Italy",
-            "colour": "#00FF00",
-            "start": []
+            "colour": "#00FF00"
         },
         "F": {
             "name": "France",
-            "colour": "#0000AA",
-            "start": [{
-                    "r": "PAR",
-                    "type": 1
-                }
-            ]
+            "colour": "#0000AA"
         },
         "R": {
             "name": "Russia",
-            "colour": "#FFFFFF",
-            "start": [{
-                    "r": "MOS",
-                    "type": 1
-                }, {
-                    "r": "STP",
-                    "type": 1
-                }, {
-                    "r": "SEV",
-                    "type": 2
-                }, {
-                    "r": "WAR",
-                    "type": 1
-                }
-            ]
+            "colour": "#FFFFFF"
         },
         "T": {
             "name": "Turkey",
-            "colour": "#FFFF00",
-            "start": [{
-                    "r": "CON",
-                    "type": 2
-                }
-            ]
+            "colour": "#FFFF00"
         },
         "A": {
             "name": "Austria",
-            "colour": "#FF0000",
-            "start": [{
-                    "r": "VIE",
-                    "type": 1
-                }, {
-                    "r": "TRI",
-                    "type": 2
-                }, {
-                    "r": "BUD",
-                    "type": 1
-                }
-            ]
+            "colour": "#FF0000"
         }
     }
 }
