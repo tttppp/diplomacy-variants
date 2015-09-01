@@ -151,22 +151,53 @@
         "F": {
             "name": "France",
             "colour": "#0000AA",
-            "start": []
+            "start": [{
+                    "r": "PAR",
+                    "type": 1
+                }
+            ]
         },
         "R": {
             "name": "Russia",
             "colour": "#FFFFFF",
-            "start": []
+            "start": [{
+                    "r": "MOS",
+                    "type": 1
+                }, {
+                    "r": "STP",
+                    "type": 1
+                }, {
+                    "r": "SEV",
+                    "type": 2
+                }, {
+                    "r": "WAR",
+                    "type": 1
+                }
+            ]
         },
         "T": {
             "name": "Turkey",
             "colour": "#FFFF00",
-            "start": []
+            "start": [{
+                    "r": "CON",
+                    "type": 2
+                }
+            ]
         },
         "A": {
             "name": "Austria",
             "colour": "#FF0000",
-            "start": []
+            "start": [{
+                    "r": "VIE",
+                    "type": 1
+                }, {
+                    "r": "TRI",
+                    "type": 2
+                }, {
+                    "r": "BUD",
+                    "type": 1
+                }
+            ]
         }
     }
 }
