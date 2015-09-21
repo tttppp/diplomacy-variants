@@ -3,65 +3,76 @@
     "centresToWin": 18,
     "startYear": 1901,
     "regions": [{
-            "r": "STP", "x": 855, "y": 290,
+            "r": "STP", "x": 855, "y": 290, "type": 1,
             "sc": { "x": 800, "y": 300 },
+            "borders": ["MOS", "LVN", "FIN", "NWY"],
             "sr": [
-                { "r": "NC", "x": 895, "y": 175 },
-                { "r": "SC", "x": 780, "y": 335 }
+                { "r": "NC", "x": 895, "y": 175, "borders": ["BAR", "NWY"] },
+                { "r": "SC", "x": 780, "y": 335, "borders": ["FIN", "LVN", "BOT"] }
             ]
         }, {
-            "r": "SPA", "x": 855, "y": 290,
+            "r": "SPA", "x": 855, "y": 290, "type": 1,
             "sc": { "x": 220, "y": 750 },
+            "borders": ["POR", "GAS", "MAR"],
             "sr": [
-                { "r": "NC", "x": 213, "y": 674 },
-                { "r": "SC", "x": 180, "y": 835 }
+                { "r": "NC", "x": 213, "y": 674, "borders": ["GAS", "POR", "MAL"] },
+                { "r": "SC", "x": 180, "y": 835, "borders": ["WME", "GOL", "MAR"] }
             ]
         }, {
-            "r": "MOS", "x": 1000, "y": 400,
+            "r": "MOS", "x": 1000, "y": 400, "type": 1,
             "sc": { "x": 1000, "y": 400 },
+            "borders": ["STP", "LVN", "WAR", "UKR", "SEV"],
             "default": {
                 "power": "R",
                 "type": 1
             }
         }, {
-            "r": "POR",
-            "sc": { "x": 105, "y": 750 }
+            "r": "POR", "x": 1000, "y": 610, "type": 1,
+            "sc": { "x": 105, "y": 750 },
+            "borders": ["MAL", "SPA", "SPA.NC"]
         }, {
-            "r": "SEV", "x": 1000, "y": 610,
+            "r": "SEV", "x": 1000, "y": 610, "type": 1,
             "sc": { "x": 900, "y": 600 },
+            "borders": ["MOS", "UKR", "BLA", "ARM", "RUM"],
             "default": {
                 "power": "R",
                 "type": 1
             }
         }, {
-            "r": "BUD", "x": 645, "y": 645,
+            "r": "BUD", "x": 645, "y": 645, "type": 1,
             "sc": { "x": 700, "y": 610 },
+            "borders": ["VIE", "RUM", "GAL", "TRI", "SER"],
             "default": {
                 "power": "A",
                 "type": 1
             }
         }, {
-            "r": "WAR", "x": 700, "y": 500,
+            "r": "WAR", "x": 700, "y": 500, "type": 1,
+            "borders": ["PRU", "LVN", "MOS", "UKR", "SIL", "GAL"],
             "sc": { "x": 700, "y": 500 },
             "default": {
                 "power": "R",
                 "type": 1
             }
         }, {
-            "r": "VIE", "x": 610, "y": 625,
+            "r": "VIE", "x": 610, "y": 625, "type": 1,
+            "borders": ["BOH", "GAL", "BUD", "TRI", "TYR"],
             "sc": { "x": 600, "y": 620 },
             "default": {
                 "power": "A",
                 "type": 1
             }
         }, {
-            "r": "TRI", "x": 585, "y": 666,
+            "r": "TRI", "x": 585, "y": 666, "type": 1,
+            "borders": ["ADR", "VEN", "TYR", "VIE", "BUD", "SER", "ALB"],
             "sc": { "x": 600, "y": 725 }
         }, {
-            "r": "RUM", "x": 800, "y": 650,
+            "r": "RUM", "x": 800, "y": 650, "type": 1,
+            "borders": ["GAL", "UKR", "SEV", "BLA", "BUL", "SER", "BUD"],
             "sc": { "x": 800, "y": 700 }
         }, {
-            "r": "BER", "x": 557, "y": 408,
+            "r": "BER", "x": 557, "y": 408, "type": 1,
+            "borders": ["KIE", "BAL", "PRU", "SIL", "MUN"],
             "fx": 567, "fy": 465,
             "sc": { "x": 558, "y": 469 },
             "default": {
@@ -69,154 +80,145 @@
                 "type": 1
             }
         }, {
-            "r": "KIE", "x": 505, "y": 518,
+            "r": "KIE", "x": 505, "y": 518, "type": 1,
             "fx": 517, "fy": 455,
+            "borders": ["DEN", "BAL", "BER", "MUN", "RUH", "HOL", "HEL"],
             "sc": { "x": 515, "y": 469 },
             "default": {
                 "power": "G",
                 "type": 2
             }
         }, {
-            "r": "MUN", "x": 518, "y": 600,
+            "r": "MUN", "x": 518, "y": 600, "type": 1,
+            "borders": ["RUH", "BER", "KIE", "SIL", "BOH", "TYR", "BUR"],
             "sc": { "x": 512, "y": 561 },
             "default": {
                 "power": "G",
                 "type": 1
             }
         }, {
-            "r": "SWE", "x": 611, "y": 268,
+            "r": "SWE", "x": 611, "y": 268, "type": 1,
+            "borders": ["DEN", "NWY", "FIN", "BOT", "BAL", "SKA"],
             "sc": { "x": 588, "y": 357 }
         }, {
-            "r": "NWY", "x": 540, "y": 252,
+            "r": "NWY", "x": 540, "y": 252, "type": 1,
+            "borders": ["SWE", "STP.NC", "NRG", "NTH", "SKA", "FIN"],
             "sc": { "x": 521, "y": 328 }
         }, {
-            "r": "GRE", "x": 720, "y": 896,
+            "r": "GRE", "x": 720, "y": 896, "type": 1,
+            "borders": ["ALB", "SER", "BUL.SC", "AEG", "ION"],
             "sc": { "x": 706, "y": 828 }
         }, {
-            "r": "LVP", "x": 330, "y": 438,
+            "r": "LVP", "x": 330, "y": 438, "type": 1,
+            "borders": ["CLY", "IRI", "WAL", "YOR", "NAT", "EDI"],
             "sc": { "x": 339, "y": 400 },
             "default": {
                 "power": "E",
                 "type": 1
             }
         }, {
-            "r": "EDI", "x": 346, "y": 373,
+            "r": "EDI", "x": 346, "y": 373, "type": 1,
+            "borders": ["LVP", "CLY", "NRG", "NTH", "YOR"],
             "sc": { "x": 340, "y": 346 },
             "default": {
                 "power": "E",
                 "type": 2
             }
         }, {
-            "r": "LON", "x": 346, "y": 389,
+            "r": "LON", "x": 346, "y": 389, "type": 1,
+            "borders": ["YOR", "WAL", "ENG", "NTH"],
             "sc": { "x": 368, "y": 482 },
             "default": {
                 "power": "E",
                 "type": 2
             }
         }, {
-            "r": "VEN", "x": 531, "y": 720,
+            "r": "VEN", "x": 531, "y": 720, "type": 1,
+            "borders": ["PIE", "TYR", "ADR", "APU", "ROM", "TUS"],
             "sc": { "x": 540, "y": 693 },
             "default": {
                 "power": "I",
                 "type": 1
             }
         }, {
-            "r": "NAP", "x": 593, "y": 833,
+            "r": "NAP", "x": 593, "y": 833, "type": 1,
+            "borders": ["TYR", "ROM", "APU", "ION"],
             "sc": { "x": 567, "y": 800 },
             "default": {
                 "power": "I",
                 "type": 2
             }
         }, {
-            "r": "ROM", "x": 540, "y": 780,
+            "r": "ROM", "x": 540, "y": 780, "type": 1,
+            "borders": ["TUS", "TYR", "VEN", "NAP", "APU"],
             "sc": { "x": 574, "y": 765 },
             "default": {
                 "power": "I",
                 "type": 1
             }
         }, {
-            "r": "MAR", "x": 416, "y": 710,
+            "r": "MAR", "x": 416, "y": 710, "type": 1,
+            "borders": ["GAS", "BUR", "GOL", "PIE", "SPA.SC"],
             "sc": { "x": 400, "y": 710 },
             "default": {
                 "power": "F",
                 "type": 1
             }
         }, {
-            "r": "BRE", "x": 298, "y": 568,
+            "r": "BRE", "x": 298, "y": 568, "type": 1,
+            "borders": ["ENG", "MAT", "GAS", "PAR", "PIC"],
             "sc": { "x": 274, "y": 552 },
             "default": {
                 "power": "F",
                 "type": 2
             }
         }, {
-            "r": "CON", "x": 810, "y": 830,
+            "r": "CON", "x": 810, "y": 830, "type": 1,
+            "borders": ["ANK", "BUL.SC", "BUL.NC", "AEG", "SMY", "BLA"],
             "sc": { "x": 845, "y": 795 },
             "default": {
                 "power": "T",
                 "type": 1
             }
         }, {
-            "r": "ANK", "x": 980, "y": 790,
+            "r": "ANK", "x": 980, "y": 790, "type": 1,
+            "borders": ["CON", "BLA", "ARM", "SMY"],
             "sc": { "x": 935, "y": 805 },
             "default": {
                 "power": "T",
                 "type": 2
             }
         }, {
-            "r": "SMY", "x": 860, "y": 890,
+            "r": "SMY", "x": 860, "y": 890, "type": 1,
+            "borders": ["ANK", "CON", "EME", "SYR", "ARM", "AEG"],
             "sc": { "x": 820, "y": 870 },
             "default": {
                 "power": "T",
                 "type": 1
             }
         },
-        { "r": "ADR", "x": 500, "y": 625 },
-        { "r": "ALB", "x": 676, "y": 812 },
-        { "r": "NTH", "x": 434, "y": 332 },
-        { "r": "IRI", "x": 229, "y": 485 },
-        { "r": "WAL", "x": 321, "y": 485 },
-        { "r": "YOR", "x": 355, "y": 341 },
-        { "r": "CLY", "x": 326, "y": 370 },
-        { "r": "NAT", "x": 100, "y": 281 },
-        { "r": "MAT", "x":  64, "y": 682 },
-        { "r": "GAL", "x": 756, "y": 600 },
-        { "r": "APU", "x": 600, "y": 812 },
-        { "r": "PIE", "x": 475, "y": 690 },
-        { "r": "TUS", "x": 505, "y": 736 },
-        { "r": "TYR", "x": 500, "y": 800 },
-        { "r": "GOL", "x": 430, "y": 765 },
-        { "r": "ION", "x": 636, "y": 888 },
-        { "r": "AEG", "x": 770, "y": 906 },
-        { "r": "BLA", "x": 943, "y": 718 },
-        { "r": "GAS", "x": 311, "y": 646 },
-        { "r": "NRG", "x": 468, "y": 100 },
-        { "r": "PIC", "x": 365, "y": 546 }
+        { "r": "ADR", "x": 500, "y": 625, "type": 2, "borders": ["VEN", "TRI", "ALB", "ION", "APU", "VEN"] },
+        { "r": "ALB", "x": 676, "y": 812, "type": 1, "borders": ["TRI", "SER", "GRE", "ION", "ADR"] },
+        { "r": "NTH", "x": 434, "y": 332, "type": 2, "borders": ["SKA", "HEL", "LON", "EDI", "DEN", "NWY", "NRG", "HOL", "BEL", "ENG", "YOR"] },
+        { "r": "IRI", "x": 229, "y": 485, "type": 2, "borders": ["LVP", "NAT", "MAT", "WAL", "ENG"] },
+        { "r": "WAL", "x": 321, "y": 485, "type": 1, "borders": ["IRI", "YOR", "LON", "ENG"] },
+        { "r": "YOR", "x": 355, "y": 341, "type": 1, "borders": ["WAL", "LON", "NOR", "EDI"] },
+        { "r": "CLY", "x": 326, "y": 370, "type": 1, "borders": ["EDI", "NAT", "LVP", "NRG"] },
+        { "r": "NAT", "x": 100, "y": 281, "type": 2, "borders": ["NRG", "MAT", "IRI", "CLY", "LVP"] },
+        { "r": "MAT", "x":  64, "y": 682, "type": 2, "borders": ["POR", "SPA.NC", "NAT", "ENG", "IRI", "BRE", "GAS", "NAF"] },
+        { "r": "GAL", "x": 756, "y": 600, "type": 1, "borders": ["WAR", "MOS", "RUM", "UKR", "BUD", "VIE", "SIL"] },
+        { "r": "APU", "x": 600, "y": 812, "type": 1, "borders": ["NAP", "VEN", "ADR", "ION", "ROM"] },
+        { "r": "PIE", "x": 475, "y": 690, "type": 1, "borders": ["MAR", "VEN", "TUS", "GOL"] },
+        { "r": "TUS", "x": 505, "y": 736, "type": 1, "borders": ["PIE", "VEN", "ROM", "GOL", "TYR"] },
+        { "r": "TYR", "x": 500, "y": 800, "type": 2, "borders": ["GOL", "TUS", "ROM", "ION", "TUN", "WME", "NAP"] },
+        { "r": "GOL", "x": 430, "y": 765, "type": 2, "borders": ["MAR", "SPA.SC", "WME", "PIE", "TUS", "TYR"] },
+        { "r": "ION", "x": 636, "y": 888, "type": 2, "borders": ["ADR", "APU", "NAP", "TYR", "TUN", "AEG", "GRE", "EME", "ALB"] },
+        { "r": "AEG", "x": 770, "y": 906, "type": 2, "borders": ["GRE", "BUL.SC", "CON", "EME", "SMY", "ION"] },
+        { "r": "BLA", "x": 943, "y": 718, "type": 2, "borders": ["SEV", "CON", "ANK", "ARM", "RUM", "BUL.EC"] },
+        { "r": "GAS", "x": 311, "y": 646, "type": 1, "borders": ["MAT", "BRE", "PAR", "BUR", "MAR", "SPA.NC"] },
+        { "r": "NRG", "x": 468, "y": 100, "type": 2, "borders": ["NOR", "NAT", "EDI", "CLY", "BAR", "NWY"] },
+        { "r": "PIC", "x": 365, "y": 546, "type": 1, "borders": ["ENG", "BRE", "PAR", "BEL", "BUR"] }
     ],
-    "graph": {
-        "STP": {
-            "NC": {
-
-            },
-            "SC": {
-
-            },
-            "NWY": "0x11",
-            "FIN": "0x11"
-        },
-        "MOS": {
-            "STP": "0x01",
-            "LVN": "0x01",
-            "WAR": "0x01",
-            "UKR": "0x01",
-            "SEV": "0x01"
-        },
-        "SEV": {
-            "ARM": "0x11",
-            "BLA": "0x10",
-            "MOS": "0x01",
-            "UKR": "0x01"
-        }
-    },
     "powers": {
         "E": {
             "name": "England",
