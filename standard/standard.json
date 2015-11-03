@@ -72,7 +72,7 @@
             }
         }, {
             "r": "VIE", "x": 610, "y": 625, "type": 1,
-            "land": ["BOH", "GAL", "BUD", "TRI", "TYS"],
+            "land": ["BOH", "GAL", "BUD", "TRI", "TYR"],
             "sc": { "x": 600, "y": 620 },
             "default": {
                 "power": "A",
@@ -80,7 +80,7 @@
             }
         }, {
             "r": "TRI", "x": 585, "y": 666, "type": 3,
-            "land": ["TYS", "VIE", "BUD", "SER"],
+            "land": ["TYR", "VIE", "BUD", "SER"],
             "sea": ["ADR"],
             "coast": ["VEN", "ALB"],
             "sc": { "x": 600, "y": 725 },
@@ -118,7 +118,7 @@
             }
         }, {
             "r": "MUN", "x": 518, "y": 600, "type": 1,
-            "land": ["RUH", "BER", "KIE", "SIL", "BOH", "TYS", "BUR"],
+            "land": ["RUH", "BER", "KIE", "SIL", "BOH", "TYR", "BUR"],
             "sc": { "x": 512, "y": 561 },
             "default": {
                 "power": "G",
@@ -173,8 +173,8 @@
         }, {
             "r": "VEN", "x": 531, "y": 720, "type": 3,
             "sea": ["ADR"],
-            "coast": ["PIE", "TYS", "ROM", "TUS"],
-            "land": ["TUS", "PIE", "TYS", "ROM"],
+            "coast": ["PIE", "TYR", "ROM", "TUS"],
+            "land": ["TUS", "PIE", "TYR", "ROM"],
             "sc": { "x": 540, "y": 693 },
             "default": {
                 "power": "I",
@@ -183,7 +183,7 @@
         }, {
             "r": "NAP", "x": 593, "y": 833, "type": 3,
             "coast": ["ROM", "APU"],
-            "sea": ["TYS", "ION"],
+            "sea": ["TYR", "ION"],
             "sc": { "x": 567, "y": 800 },
             "default": {
                 "power": "I",
@@ -193,7 +193,7 @@
             "r": "ROM", "x": 540, "y": 780, "type": 3,
             "coast": ["TUS", "NAP"],
             "land": ["APU", "VEN"],
-            "sea": ["TYS"],
+            "sea": ["TYR"],
             "sc": { "x": 574, "y": 765 },
             "default": {
                 "power": "I",
@@ -285,11 +285,11 @@
         { "r": "MID", "x":  64, "y": 682, "type": 2, "sea": ["POR", "SPA.NC", "NAT", "ENG", "IRI", "BRE", "GAS", "NAF"] },
         { "r": "GAL", "x": 756, "y": 600, "type": 1, "land": ["WAR", "MOS", "RUM", "UKR", "BUD", "VIE", "SIL"] },
         { "r": "APU", "x": 600, "y": 812, "type": 3, "sea": ["ADR", "ION"], "land": ["ROM"], "coast": ["NAP", "VEN"] },
-        { "r": "PIE", "x": 475, "y": 690, "type": 3, "sea": ["GOL"], "coast": ["MAR"], "land": ["TYS", "VEN"] },
+        { "r": "PIE", "x": 475, "y": 690, "type": 3, "sea": ["GOL"], "coast": ["MAR"], "land": ["TYR", "VEN"] },
         { "r": "TUS", "x": 505, "y": 736, "type": 3, "land": ["VEN", "APU"], "sea": ["GOL"], "coast": ["TUS", "NAP"] },
-        { "r": "TYS", "x": 500, "y": 800, "type": 1, "land": ["GOL", "TUS", "ROM", "ION", "TUN", "WME", "NAP"] },
-        { "r": "GOL", "x": 430, "y": 765, "type": 3, "sea": ["MAR", "SPA.SC", "WME", "PIE", "TUS", "TYS"] },
-        { "r": "ION", "x": 636, "y": 888, "type": 2, "sea": ["ADR", "APU", "NAP", "TYS", "TUN", "AEG", "GRE", "EME", "ALB"] },
+        { "r": "TYR", "x": 500, "y": 800, "type": 1, "land": ["GOL", "TUS", "ROM", "ION", "TUN", "WME", "NAP"] },
+        { "r": "GOL", "x": 430, "y": 765, "type": 3, "sea": ["MAR", "SPA.SC", "WME", "PIE", "TUS", "TYR"] },
+        { "r": "ION", "x": 636, "y": 888, "type": 2, "sea": ["ADR", "APU", "NAP", "TYR", "TUN", "AEG", "GRE", "EME", "ALB"] },
         { "r": "AEG", "x": 770, "y": 906, "type": 2, "sea": ["GRE", "BUL.SC", "CON", "EME", "SMY", "ION"] },
         { "r": "BLA", "x": 943, "y": 718, "type": 2, "sea": ["SEV", "CON", "ANK", "ARM", "RUM", "BUL.EC"] },
         { "r": "GAS", "x": 311, "y": 646, "type": 3, "sea": ["MID", "SPA.NC"], "coast": ["BRE"], "land": ["BUR", "MAR", "SPA"] },
