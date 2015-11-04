@@ -91,7 +91,7 @@
         }, {
             "r": "RUM", "x": 800, "y": 650, "type": 3,
             "land": ["GAL", "UKR", "BUL", "SER", "BUD"],
-            "sea": ["BLA", "BUL.EC"],
+            "sea": ["BLA", "BUL/EC"],
             "coast": ["SEV"],
             "sc": { "x": 800, "y": 700 }
         }, {
@@ -133,11 +133,11 @@
             "r": "NWY", "x": 540, "y": 252, "type": 3,
             "land": ["STP", "FIN"],
             "coast": ["SWE"],
-            "sea": ["NRG", "NTH", "SKA", "STP.NC"],
+            "sea": ["NRG", "NTH", "SKA", "STP/NC"],
             "sc": { "x": 521, "y": 328 }
         }, {
             "r": "GRE", "x": 720, "y": 896, "type": 3,
-            "sea": ["ION", "AEG", "BUL.SC"],
+            "sea": ["ION", "AEG", "BUL/SC"],
             "land": ["SER", "BUL"],
             "coast": ["ALB"],
             "sc": { "x": 706, "y": 828 }
@@ -201,7 +201,7 @@
             }
         }, {
             "r": "MAR", "x": 416, "y": 710, "type": 3,
-            "sea": ["GOL", "SPA.SC"],
+            "sea": ["GOL", "SPA/SC"],
             "land": ["SPA", "GAS", "BUR"],
             "coast": ["PIE"],
             "sc": { "x": 400, "y": 710 },
@@ -231,7 +231,7 @@
             "r": "CON", "x": 810, "y": 830, "type": 3,
             "coast": ["ANK", "SMY"],
             "land": ["BUL"],
-            "sea": ["BUL.SC", "BUL.EC", "AEG", "BLA"],
+            "sea": ["BUL/SC", "BUL/EC", "AEG", "BLA"],
             "sc": { "x": 845, "y": 795 },
             "default": {
                 "power": "T",
@@ -282,17 +282,17 @@
         { "r": "YOR", "x": 355, "y": 341, "type": 3, "land": ["LVP", "WAL"], "coast": ["EDI", "LON"], "sea": ["NOR"] },
         { "r": "CLY", "x": 326, "y": 370, "type": 3, "sea": ["NAT"], "coast": ["EDI", "LVP", "NRG"] },
         { "r": "NAT", "x": 100, "y": 281, "type": 2, "sea": ["NRG", "MID", "IRI", "CLY", "LVP"] },
-        { "r": "MID", "x":  64, "y": 682, "type": 2, "sea": ["POR", "SPA.NC", "NAT", "ENG", "IRI", "BRE", "GAS", "NAF"] },
+        { "r": "MID", "x":  64, "y": 682, "type": 2, "sea": ["POR", "SPA/NC", "NAT", "ENG", "IRI", "BRE", "GAS", "NAF"] },
         { "r": "GAL", "x": 756, "y": 600, "type": 1, "land": ["WAR", "MOS", "RUM", "UKR", "BUD", "VIE", "SIL"] },
         { "r": "APU", "x": 600, "y": 812, "type": 3, "sea": ["ADR", "ION"], "land": ["ROM"], "coast": ["NAP", "VEN"] },
         { "r": "PIE", "x": 475, "y": 690, "type": 3, "sea": ["GOL"], "coast": ["MAR"], "land": ["TYR", "VEN"] },
         { "r": "TUS", "x": 505, "y": 736, "type": 3, "land": ["VEN", "APU"], "sea": ["GOL"], "coast": ["TUS", "NAP"] },
         { "r": "TYR", "x": 500, "y": 800, "type": 1, "land": ["GOL", "TUS", "ROM", "ION", "TUN", "WME", "NAP"] },
-        { "r": "GOL", "x": 430, "y": 765, "type": 3, "sea": ["MAR", "SPA.SC", "WME", "PIE", "TUS", "TYR"] },
+        { "r": "GOL", "x": 430, "y": 765, "type": 3, "sea": ["MAR", "SPA/SC", "WME", "PIE", "TUS", "TYR"] },
         { "r": "ION", "x": 636, "y": 888, "type": 2, "sea": ["ADR", "APU", "NAP", "TYR", "TUN", "AEG", "GRE", "EME", "ALB"] },
-        { "r": "AEG", "x": 770, "y": 906, "type": 2, "sea": ["GRE", "BUL.SC", "CON", "EME", "SMY", "ION"] },
-        { "r": "BLA", "x": 943, "y": 718, "type": 2, "sea": ["SEV", "CON", "ANK", "ARM", "RUM", "BUL.EC"] },
-        { "r": "GAS", "x": 311, "y": 646, "type": 3, "sea": ["MID", "SPA.NC"], "coast": ["BRE"], "land": ["BUR", "MAR", "SPA"] },
+        { "r": "AEG", "x": 770, "y": 906, "type": 2, "sea": ["GRE", "BUL/SC", "CON", "EME", "SMY", "ION"] },
+        { "r": "BLA", "x": 943, "y": 718, "type": 2, "sea": ["SEV", "CON", "ANK", "ARM", "RUM", "BUL/EC"] },
+        { "r": "GAS", "x": 311, "y": 646, "type": 3, "sea": ["MID", "SPA/NC"], "coast": ["BRE"], "land": ["BUR", "MAR", "SPA"] },
         { "r": "NRG", "x": 468, "y": 100, "type": 2, "sea": ["NOR", "NAT", "EDI", "CLY", "BAR", "NWY"] },
         { "r": "PIC", "x": 365, "y": 546, "type": 3, "sea": ["ENG"], "coast": ["BRE", "PAR", "BEL"], "land": ["BUR", "PAR"] },
         { "r": "BUR", "x": 365, "y": 546, "type": 1, "land": ["PAR", "PIC", "BEL", "RUH", "MUN", "MAR", "GAS"] },
