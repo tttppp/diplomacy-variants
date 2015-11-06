@@ -173,7 +173,7 @@
         }, {
             "r": "VEN", "x": 531, "y": 720, "type": 3,
             "sea": ["ADR"],
-            "coast": ["PIE", "TYR", "ROM", "TUS"],
+            "coast": ["TRI", "APU"],
             "land": ["TUS", "PIE", "TYR", "ROM"],
             "sc": { "x": 540, "y": 693 },
             "default": {
@@ -287,8 +287,8 @@
         { "r": "APU", "x": 600, "y": 812, "type": 3, "sea": ["ADR", "ION"], "land": ["ROM"], "coast": ["NAP", "VEN"] },
         { "r": "PIE", "x": 475, "y": 690, "type": 3, "sea": ["GOL"], "coast": ["MAR"], "land": ["TYR", "VEN"] },
         { "r": "TUS", "x": 505, "y": 736, "type": 3, "land": ["VEN", "APU"], "sea": ["GOL"], "coast": ["TUS", "NAP"] },
-        { "r": "TYR", "x": 500, "y": 800, "type": 1, "land": ["GOL", "TUS", "ROM", "ION", "TUN", "WME", "NAP"] },
-        { "r": "GOL", "x": 430, "y": 765, "type": 3, "sea": ["MAR", "SPA/SC", "WME", "PIE", "TUS", "TYR"] },
+        { "r": "TYR", "x": 500, "y": 800, "type": 1, "land": ["MUN", "BOH", "VIE", "TRI", "VEN", "PIE"] },
+        { "r": "GOL", "x": 430, "y": 765, "type": 3, "sea": ["MAR", "SPA/SC", "WES", "PIE", "TUS", "TYR"] },
         { "r": "ION", "x": 636, "y": 888, "type": 2, "sea": ["ADR", "APU", "NAP", "TYR", "TUN", "AEG", "GRE", "EME", "ALB"] },
         { "r": "AEG", "x": 770, "y": 906, "type": 2, "sea": ["GRE", "BUL/SC", "CON", "EME", "SMY", "ION"] },
         { "r": "BLA", "x": 943, "y": 718, "type": 2, "sea": ["SEV", "CON", "ANK", "ARM", "RUM", "BUL/EC"] },
@@ -297,7 +297,8 @@
         { "r": "PIC", "x": 365, "y": 546, "type": 3, "sea": ["ENG"], "coast": ["BRE", "PAR", "BEL"], "land": ["BUR", "PAR"] },
         { "r": "BUR", "x": 365, "y": 546, "type": 1, "land": ["PAR", "PIC", "BEL", "RUH", "MUN", "MAR", "GAS"] },
         { "r": "UKR", "x": 111, "y": 111, "type": 1, "land": ["WAR", "MOS", "SEV", "RUM", "GAL"] },
-        { "r": "LVN", "x": 222, "y": 222, "type": 3, "land": ["STP", "MOS", "WAR"], "coast": ["PRU"], "sea": ["BAL", "BOT", "STP/NC"] }
+        { "r": "LVN", "x": 222, "y": 222, "type": 3, "land": ["STP", "MOS", "WAR"], "coast": ["PRU"], "sea": ["BAL", "BOT", "STP/NC"] },
+        { "r": "WES", "x": 333, "y": 333, "type": 2, "sea": ["MID", "SPA/SC", "GOL", "TYS", "TUN", "NAF"]}
     ],
     "powers": {
         "E": {
