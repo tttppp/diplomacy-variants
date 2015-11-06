@@ -258,7 +258,7 @@
                 "type": 1
             }
         }, {
-            "r": "SER", "x": 365, "y": 546, "type": 2,
+            "r": "SER", "x": 365, "y": 546, "type": 1,
             "land": ["TRI", "BUD", "RUM", "BUL", "GRE", "ALB"],
             "sc": { "x": 111, "y": 222 }
         }, {
@@ -272,6 +272,17 @@
             "coast": ["BEL", "KIE"],
             "sea": ["HEL", "NTH"],
             "land": ["RUH"],
+            "sc": { "x": 111, "y": 222 }
+        }, {
+            "r": "TUN", "x": 242, "y": 131, "type": 3,
+            "coast": ["NAF"],
+            "sea": ["WES", "TYS", "ION"],
+            "sc": { "x": 111, "y": 222 }
+        }, {
+            "r": "NWY", "x": 287, "y": 3233, "type": 3,
+            "coast": ["SWE"],
+            "sea": ["NTH", "NRG", "BAR", "STP/NC"],
+            "land": ["STP", "FIN"],
             "sc": { "x": 111, "y": 222 }
         },
         { "r": "ADR", "x": 500, "y": 625, "type": 2, "sea": ["VEN", "TRI", "ALB", "ION", "APU", "VEN"] },
@@ -288,6 +299,7 @@
         { "r": "PIE", "x": 475, "y": 690, "type": 3, "sea": ["GOL"], "coast": ["MAR"], "land": ["TYR", "VEN"] },
         { "r": "TUS", "x": 505, "y": 736, "type": 3, "land": ["VEN", "APU"], "sea": ["GOL"], "coast": ["TUS", "NAP"] },
         { "r": "TYR", "x": 500, "y": 800, "type": 1, "land": ["MUN", "BOH", "VIE", "TRI", "VEN", "PIE"] },
+        { "r": "TYS", "x": 636, "y": 888, "type": 2, "sea": ["WES", "GOL", "TUS", "ROM", "NAP", "ION", "TUN"] },
         { "r": "GOL", "x": 430, "y": 765, "type": 3, "sea": ["MAR", "SPA/SC", "WES", "PIE", "TUS", "TYR"] },
         { "r": "ION", "x": 636, "y": 888, "type": 2, "sea": ["ADR", "APU", "NAP", "TYR", "TUN", "AEG", "GRE", "EME", "ALB"] },
         { "r": "AEG", "x": 770, "y": 906, "type": 2, "sea": ["GRE", "BUL/SC", "CON", "EME", "SMY", "ION"] },
@@ -297,8 +309,21 @@
         { "r": "PIC", "x": 365, "y": 546, "type": 3, "sea": ["ENG"], "coast": ["BRE", "PAR", "BEL"], "land": ["BUR", "PAR"] },
         { "r": "BUR", "x": 365, "y": 546, "type": 1, "land": ["PAR", "PIC", "BEL", "RUH", "MUN", "MAR", "GAS"] },
         { "r": "UKR", "x": 111, "y": 111, "type": 1, "land": ["WAR", "MOS", "SEV", "RUM", "GAL"] },
-        { "r": "LVN", "x": 222, "y": 222, "type": 3, "land": ["STP", "MOS", "WAR"], "coast": ["PRU"], "sea": ["BAL", "BOT", "STP/NC"] },
-        { "r": "WES", "x": 333, "y": 333, "type": 2, "sea": ["MID", "SPA/SC", "GOL", "TYS", "TUN", "NAF"]}
+        { "r": "LVN", "x": 222, "y": 222, "type": 3, "land": ["WAR", "SIL"], "coast": ["PRU"], "sea": ["BAL", "BOT", "STP/NC"] },
+        { "r": "PRU", "x": 22, "y": 44, "type": 3, "land": ["STP", "MOS", "WAR"], "coast": ["BER", "LVN"], "sea": ["BAL"] },
+        { "r": "WES", "x": 333, "y": 333, "type": 2, "sea": ["MID", "SPA/SC", "GOL", "TYS", "TUN", "NAF"]},
+        { "r": "ENG", "x": 444, "y": 444, "type": 2, "sea": ["MID", "IRI", "WAL", "LON", "NTH", "BEL", "PIC", "BRE"] },
+        { "r": "HEL", "x": 555, "y": 666, "type": 2, "sea": ["NTH", "DEN", "KIE", "HOL"] },
+        { "r": "SKA", "x": 666, "y": 666, "type": 2, "sea": ["NTH", "NWY", "SWE", "DEN"] },
+        { "r": "BAL", "x": 111, "y": 94, "type": 2, "sea": ["DEN", "SWE", "BOT", "LVN", "PRU", "BER", "KIE"] },
+        { "r": "SIL", "x": 222, "y": 242, "type": 1, "land": ["MUN", "BER", "PRU", "WAR", "GAL", "BOH"] },
+        { "r": "BOH", "x": 84, "y": 22, "type": 1, "land": ["MUN", "SIL", "GAL", "VIE", "TYR"] },
+        { "r": "NAF", "x": 555, "y": 666, "type": 3, "sea": ["MID", "WES"], "coast": ["TUN"] },
+        { "r": "FIN", "x": 21, "y": 666, "type": 3, "land": ["NWY", "STP"], "coast": ["SWE"], "sea": ["BOT", "STP/NC"] },
+        { "r": "BOT", "x": 7367, "y": 94, "type": 2, "sea": ["SWE", "FIN", "STP/SC", "LVN", "BAL"] },
+        { "r": "ARM", "x": 21, "y": 666, "type": 3, "land": ["SYR", "SMY"], "coast": ["ANK", "SEV"], "sea": ["BLA"] },
+        { "r": "SYR", "x": 21, "y": 666, "type": 3, "land": ["ARM"], "coast": ["SMY"], "sea": ["EAS"] },
+        { "r": "EAS", "x": 111, "y": 94, "type": 2, "sea": ["ION", "AEG", "SMY", "SYR"] }
     ],
     "powers": {
         "E": {
