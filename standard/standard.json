@@ -323,7 +323,8 @@
         { "r": "BOT", "x": 7367, "y": 94, "type": 2, "sea": ["SWE", "FIN", "STP/SC", "LVN", "BAL"] },
         { "r": "ARM", "x": 21, "y": 666, "type": 3, "land": ["SYR", "SMY"], "coast": ["ANK", "SEV"], "sea": ["BLA"] },
         { "r": "SYR", "x": 21, "y": 666, "type": 3, "land": ["ARM"], "coast": ["SMY"], "sea": ["EAS"] },
-        { "r": "EAS", "x": 111, "y": 94, "type": 2, "sea": ["ION", "AEG", "SMY", "SYR"] }
+        { "r": "EAS", "x": 111, "y": 94, "type": 2, "sea": ["ION", "AEG", "SMY", "SYR"] },
+        { "r": "BAR", "x": 111, "y": 94, "type": 2, "sea": ["NRG", "STP/NC", "NWY"] }
     ],
     "powers": {
         "E": {
