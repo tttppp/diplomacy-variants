@@ -1,0 +1,41 @@
+{
+    "name": "DemoLand",
+    "SCsToWin": 4,
+    "startYear": 1,
+    "regions": [{
+            "r": "AA", "x": 92, "y": 683, "type": 1,
+            "sc": { "x": 156, "y": 621 },
+            "sr": [
+                { "r": "NC", "x": 90, "y": 600, "type": 2, "sea": ["AB"] },
+                { "r": "EC", "x": 156, "y": 663, "type": 2, "sea": ["BA"] }
+            ],
+            "default": {
+                "power": "A",
+                "type": 2,
+                "sr": "EC"
+            }
+        }, {
+            "r": "EE", "x": 768, "y": 33, "type": 1,
+            "sc": { "x": 730, "y": 125 },
+            "sr": [
+                { "r": "SC", "x": 814, "y": 129, "type": 2, "sea": ["ED"] },
+                { "r": "WC", "x": 700, "y": 60, "type": 2, "sea": ["DE"] }
+            ],
+            "default": {
+                "power": "E",
+                "type": 2,
+                "sr": "SC"
+            }
+        }
+    ],
+    "powers": {
+        "A": {
+            "name": "Aaaaah",
+            "colour": "#012345"
+        },
+        "E": {
+            "name": "Eeeeek",
+            "colour": "#FEDCBA"
+        }
+    }
+}

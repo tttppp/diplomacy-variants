@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- ========================================================================================== -->
+<!-- Detailed Standard Map 																		-->
+<!--   background (and quite nice) map bitmap by J. Fatula III 									-->
+<!--   SVG by Zach DelProposto 																	-->
+<!--   																							-->
+<!-- ========================================================================================== -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="862" height="732">
+    <g class="mouseLayer" transform="translate(7,2)">
+    </g>
+</svg>
