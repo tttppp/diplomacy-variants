@@ -1,13 +1,10 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<!-- ========================================================================================== -->
-<!-- Detailed Standard Map 																		-->
-<!--   background (and quite nice) map bitmap by J. Fatula III 									-->
-<!--   SVG by Zach DelProposto 																	-->
-<!--   																							-->
-<!-- ========================================================================================== -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="862" height="732">
     <g class="mouseLayer" transform="translate(7,2)">
+        <path id="AA" d="m 6.5124555,363.0694 0.8140569,84.66191 100.9430576,10e-6 0,-85.47598 z" />
+        <path id="BA" d="m 112.33986,363.0694 0.81405,84.66191 100.94306,10e-6 0,-85.47598 z" />
+        <path id="CA" d="m 218.16726,363.0694 0.81405,84.66191 100.94306,10e-6 0,-85.47598 z" />
     </g>
 </svg>
