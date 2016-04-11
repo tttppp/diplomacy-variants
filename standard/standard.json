@@ -95,12 +95,12 @@
             "coast": ["SEV"],
             "sc": { "x": 800, "y": 700 }
         }, {
-            "r": "BER", "x": 557, "y": 408, "type": 3,
+            "r": "BER", "x": 560, "y": 484, "type": 3,
             "land": ["SIL", "MUN"],
             "sea": ["BAL"],
             "coast": ["KIE", "PRU"],
             "fx": 567, "fy": 465,
-            "sc": { "x": 558, "y": 469 },
+            "sc": { "x": 560, "y": 494 },
             "default": {
                 "power": "G",
                 "type": 1
@@ -315,10 +315,10 @@
         { "r": "BUR", "x": 365, "y": 546, "type": 1, "land": ["PAR", "PIC", "BEL", "RUH", "MUN", "MAR", "GAS"] },
         { "r": "UKR", "x": 111, "y": 111, "type": 1, "land": ["WAR", "MOS", "SEV", "RUM", "GAL"] },
         { "r": "LVN", "x": 222, "y": 222, "type": 3, "land": ["WAR", "SIL"], "coast": ["PRU"], "sea": ["BAL", "BOT", "STP/NC"] },
-        { "r": "PRU", "x": 22, "y": 44, "type": 3, "land": ["STP", "MOS", "WAR"], "coast": ["BER", "LVN"], "sea": ["BAL"] },
+        { "r": "PRU", "x": 620, "y": 480, "type": 3, "land": ["STP", "MOS", "WAR"], "coast": ["BER", "LVN"], "sea": ["BAL"] },
         { "r": "WES", "x": 333, "y": 333, "type": 2, "sea": ["MID", "SPA/SC", "GOL", "TYS", "TUN", "NAF"]},
         { "r": "ENG", "x": 444, "y": 444, "type": 2, "sea": ["MID", "IRI", "WAL", "LON", "NTH", "BEL", "PIC", "BRE"] },
-        { "r": "HEL", "x": 470, "y": 435, "type": 2, "sea": ["NTH", "DEN", "KIE", "HOL"] },
+        { "r": "HEL", "x": 465, "y": 448, "type": 2, "sea": ["NTH", "DEN", "KIE", "HOL"] },
         { "r": "SKA", "x": 666, "y": 666, "type": 2, "sea": ["NTH", "NWY", "SWE", "DEN"] },
         { "r": "BAL", "x": 111, "y": 94, "type": 2, "sea": ["DEN", "SWE", "BOT", "LVN", "PRU", "BER", "KIE"] },
         { "r": "SIL", "x": 222, "y": 242, "type": 1, "land": ["MUN", "BER", "PRU", "WAR", "GAL", "BOH"] },
