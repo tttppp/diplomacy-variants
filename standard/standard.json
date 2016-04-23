@@ -55,7 +55,7 @@
                 "type": 1
             }
         }, {
-            "r": "BUD", "x": 645, "y": 645, "type": 1,
+            "r": "BUD", "x": 650, "y": 660, "type": 1,
             "sc": { "x": 700, "y": 610 },
             "land": ["TRI", "VIE", "GAL", "RUM", "SER"],
             "default": {
@@ -71,7 +71,7 @@
                 "type": 1
             }
         }, {
-            "r": "VIE", "x": 610, "y": 625, "type": 1,
+            "r": "VIE", "x": 635, "y": 615, "type": 1,
             "land": ["BOH", "GAL", "BUD", "TRI", "TYR"],
             "sc": { "x": 600, "y": 620 },
             "default": {
@@ -176,11 +176,11 @@
                 "type": 2
             }
         }, {
-            "r": "VEN", "x": 531, "y": 720, "type": 3,
+            "r": "VEN", "x": 534, "y": 726, "type": 3,
             "sea": ["ADR"],
             "coast": ["TRI", "APU"],
             "land": ["TUS", "PIE", "TYR", "ROM"],
-            "sc": { "x": 540, "y": 693 },
+            "sc": { "x": 518, "y": 690 },
             "default": {
                 "power": "I",
                 "type": 1
@@ -195,17 +195,17 @@
                 "type": 2
             }
         }, {
-            "r": "ROM", "x": 540, "y": 780, "type": 3,
+            "r": "ROM", "x": 530, "y": 766, "type": 3,
             "coast": ["TUS", "NAP"],
             "land": ["APU", "VEN"],
             "sea": ["TYR"],
-            "sc": { "x": 574, "y": 765 },
+            "sc": { "x": 540, "y": 780 },
             "default": {
                 "power": "I",
                 "type": 1
             }
         }, {
-            "r": "MAR", "x": 416, "y": 710, "type": 3,
+            "r": "MAR", "x": 360, "y": 695, "type": 3,
             "sea": ["GOL", "SPA/SC"],
             "land": ["SPA", "GAS", "BUR"],
             "coast": ["PIE"],
@@ -215,7 +215,7 @@
                 "type": 1
             }
         }, {
-            "r": "BRE", "x": 298, "y": 568, "type": 3,
+            "r": "BRE", "x": 305, "y": 595, "type": 3,
             "sea": ["ENG", "MID"],
             "coast": ["GAS", "PIC"],
             "land": ["PAR"],
