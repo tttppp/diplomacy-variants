@@ -2,12 +2,12 @@
     "name": "Chromatic",
     "SCsToWin": 11,
     "startYear": 0,
-    "regions": [{
-            "r" : "CRY", "x" : 538, "y" : 559, "type": 1,
+    "provinces": [{
+            "p" : "CRY", "x" : 538, "y" : 559, "type": 1,
             "sc" : { "x" : 538, "y" : 528 },
             "land": ["HOT", "PAP", "INK", "SAF", "COL"]
         }, {
-            "r" : "JET", "x" : 672, "y" : 405, "type": 3,
+            "p" : "JET", "x" : 672, "y" : 405, "type": 3,
             "sc" : { "x" : 708, "y" : 441 },
             "coast": ["PAP", "COA"],
             "land": ["RAV", "EBO", "INK"],
@@ -17,7 +17,7 @@
                 "type": 2
             }
         }, {
-            "r": "SUN", "x": 690, "y": 637, "type": 3,
+            "p": "SUN", "x": 690, "y": 637, "type": 3,
             "sc": { "x": 676, "y": 676 },
             "coast": ["INK", "LEM"],
             "land": ["SUL", "SAF", "GOL"],
@@ -27,8 +27,8 @@
                 "type": 2
             }
         },
-        { "r": "COA", "x": 824, "y": 413, "type": 3, "coast": ["JET", "OBS"], "land": ["EBO"], "sea": ["MER", "NIG"] },
-        { "r": "SAF", "x": 594, "y": 613, "type": 3, "coast": ["COB", "SUL"] }
+        { "p": "COA", "x": 824, "y": 413, "type": 3, "coast": ["JET", "OBS"], "land": ["EBO"], "sea": ["MER", "NIG"] },
+        { "p": "SAF", "x": 594, "y": 613, "type": 3, "coast": ["COB", "SUL"] }
     ],
     "powers": {
         "B": {
