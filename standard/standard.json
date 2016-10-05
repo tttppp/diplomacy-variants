@@ -281,12 +281,6 @@
             "coast": ["NAF"],
             "sea": ["WES", "TYS", "ION"],
             "sc": { "x": 111, "y": 222 }
-        }, {
-            "p": "NWY", "x": 287, "y": 3233, "type": 3,
-            "coast": ["SWE"],
-            "sea": ["NTH", "NRG", "BAR", "STP/NC"],
-            "land": ["STP", "FIN"],
-            "sc": { "x": 111, "y": 222 }
         },
         { "p": "ADR", "x": 500, "y": 625, "type": 2, "sea": ["VEN", "TRI", "ALB", "ION", "APU", "VEN"] },
         { "p": "ALB", "x": 676, "y": 812, "type": 3, "sea": ["ADR", "ION"], "coast": ["TRI", "GRE", "ION", "ADR"], "land": ["SER"] },
