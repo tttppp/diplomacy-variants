@@ -13,7 +13,7 @@
             "default": {
                 "power": "R",
                 "type": 2,
-                "sp": "NC"
+                "sp": "SC"
             }
         }, {
             "p": "BUL", "x": 774, "y": 766, "type": 1,
@@ -287,7 +287,7 @@
         { "p": "NTH", "x": 434, "y": 332, "type": 2, "sea": ["SKA", "HEL", "LON", "EDI", "DEN", "NWY", "NRG", "HOL", "BEL", "ENG", "YOR"] },
         { "p": "IRI", "x": 229, "y": 485, "type": 2, "sea": ["LVP", "NAT", "MID", "WAL", "ENG"] },
         { "p": "WAL", "x": 321, "y": 485, "type": 3, "sea": ["IRI", "ENG"], "coast": ["LON", "LVP"], "land": ["YOR"] },
-        { "p": "YOR", "x": 355, "y": 341, "type": 3, "land": ["LVP", "WAL"], "coast": ["EDI", "LON"], "sea": ["NOR"] },
+        { "p": "YOR", "x": 355, "y": 341, "type": 3, "land": ["LVP", "WAL"], "coast": ["EDI", "LON"], "sea": ["NTH"] },
         { "p": "CLY", "x": 326, "y": 370, "type": 3, "sea": ["NAT"], "coast": ["EDI", "LVP", "NRG"] },
         { "p": "NAT", "x": 100, "y": 281, "type": 2, "sea": ["NRG", "MID", "IRI", "CLY", "LVP"] },
         { "p": "MID", "x":  64, "y": 682, "type": 2, "sea": ["POR", "SPA/NC", "NAT", "ENG", "IRI", "BRE", "GAS", "NAF"] },
@@ -302,7 +302,7 @@
         { "p": "AEG", "x": 770, "y": 906, "type": 2, "sea": ["GRE", "BUL/SC", "CON", "EME", "SMY", "ION"] },
         { "p": "BLA", "x": 943, "y": 718, "type": 2, "sea": ["SEV", "CON", "ANK", "ARM", "RUM", "BUL/EC"] },
         { "p": "GAS", "x": 364, "y": 648, "type": 3, "sea": ["MID", "SPA/NC"], "coast": ["BRE"], "land": ["BUR", "MAR", "SPA"] },
-        { "p": "NRG", "x": 468, "y": 100, "type": 2, "sea": ["NOR", "NAT", "EDI", "CLY", "BAR", "NWY"] },
+        { "p": "NRG", "x": 468, "y": 100, "type": 2, "sea": ["NTH", "NAT", "EDI", "CLY", "BAR", "NWY"] },
         { "p": "PIC", "x": 365, "y": 546, "type": 3, "sea": ["ENG"], "coast": ["BRE", "PAR", "BEL"], "land": ["BUR", "PAR"] },
         { "p": "BUR", "x": 365, "y": 546, "type": 1, "land": ["PAR", "PIC", "BEL", "RUH", "MUN", "MAR", "GAS"] },
         { "p": "UKR", "x": 820, "y": 584, "type": 1, "land": ["WAR", "MOS", "SEV", "RUM", "GAL"] },
