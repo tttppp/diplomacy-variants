@@ -52,7 +52,7 @@
             "coast": ["ARM", "RUM"],
             "default": {
                 "power": "R",
-                "type": 1
+                "type": 2
             }
         }, {
             "p": "BUD", "x": 650, "y": 660, "type": 1,
