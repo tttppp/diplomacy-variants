@@ -8,7 +8,7 @@
             "land": ["MOS", "LVN", "FIN", "NWY"],
             "sp": [
                 { "p": "NC", "x": 870, "y": 170, "sea": ["BAR", "NWY"], "type": 2 },
-                { "p": "SC", "x": 760, "y": 328, "sea": ["LVN", "BOT"], "type": 2 }
+                { "p": "SC", "x": 760, "y": 328, "sea": ["LVN", "BOT", "FIN"], "type": 2 }
             ],
             "default": {
                 "power": "R",
